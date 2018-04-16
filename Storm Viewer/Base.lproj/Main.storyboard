@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -46,6 +47,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a6g-DJ-uZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="969.56521739130437" y="135.32608695652175"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="Vom-0Y-lvA">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="oZ8-4Q-5up" customClass="DetailViewController" customModule="Storm_Viewer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pek-pr-OcG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPS-W0-mSR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="vPS-W0-mSR" secondAttribute="trailing" id="Ye2-Cw-VFz"/>
+                            <constraint firstItem="vPS-W0-mSR" firstAttribute="top" secondItem="pek-pr-OcG" secondAttribute="top" id="cVp-tP-od2"/>
+                            <constraint firstItem="vPS-W0-mSR" firstAttribute="leading" secondItem="pek-pr-OcG" secondAttribute="leading" id="eEz-41-QWl"/>
+                            <constraint firstItem="vPS-W0-mSR" firstAttribute="bottom" secondItem="gbi-fd-QzV" secondAttribute="bottom" id="pqm-DW-nhD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gbi-fd-QzV"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="vPS-W0-mSR" id="fTQ-ji-Xu8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qbn-YI-C2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1821.7391304347827" y="134.5108695652174"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OzD-dD-59e">
