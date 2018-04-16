@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,15 +18,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Picture" textLabel="Ybj-YT-FT1" style="IBUITableViewCellStyleDefault" id="i1L-5g-8W5">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Picture" textLabel="Ybj-YT-FT1" style="IBUITableViewCellStyleDefault" id="i1L-5g-8W5">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i1L-5g-8W5" id="UqM-tW-jCb">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="376" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ybj-YT-FT1">
-                                            <rect key="frame" x="20" y="0.0" width="374" height="43.666666666666664"/>
+                                            <rect key="frame" x="20" y="0.0" width="356" height="43.666666666666664"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -56,7 +55,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPS-W0-mSR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vPS-W0-mSR">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                         </subviews>
@@ -65,9 +64,8 @@
                             <constraint firstAttribute="trailing" secondItem="vPS-W0-mSR" secondAttribute="trailing" id="Ye2-Cw-VFz"/>
                             <constraint firstItem="vPS-W0-mSR" firstAttribute="top" secondItem="pek-pr-OcG" secondAttribute="top" id="cVp-tP-od2"/>
                             <constraint firstItem="vPS-W0-mSR" firstAttribute="leading" secondItem="pek-pr-OcG" secondAttribute="leading" id="eEz-41-QWl"/>
-                            <constraint firstItem="vPS-W0-mSR" firstAttribute="bottom" secondItem="gbi-fd-QzV" secondAttribute="bottom" id="pqm-DW-nhD"/>
+                            <constraint firstItem="vPS-W0-mSR" firstAttribute="bottom" secondItem="pek-pr-OcG" secondAttribute="bottom" id="pqm-DW-nhD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="gbi-fd-QzV"/>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="vPS-W0-mSR" id="fTQ-ji-Xu8"/>

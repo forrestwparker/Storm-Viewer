@@ -12,6 +12,8 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        title = "Storm Viewer"
+        navigationController?.navigationBar.prefersLargeTitles = true
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
@@ -21,7 +23,7 @@ class ViewController: UITableViewController {
                 pictures.append(item)
             }
         }
-        print(pictures)
+        //print(pictures)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
