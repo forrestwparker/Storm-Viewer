@@ -23,6 +23,7 @@
 		6FCC9D872085327400FBE813 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FCC9D7D2085327300FBE813 /* nssl0033.jpg */; };
 		6FCC9D882085327400FBE813 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FCC9D7E2085327300FBE813 /* nssl0034.jpg */; };
 		6FCC9D8A208544A000FBE813 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC9D89208544A000FBE813 /* DetailViewController.swift */; };
+		6FCC9D8C2085539F00FBE813 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6FCC9D8B2085539F00FBE813 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		6FCC9D7D2085327300FBE813 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		6FCC9D7E2085327300FBE813 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		6FCC9D89208544A000FBE813 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6FCC9D8B2085539F00FBE813 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		6FCC9D3E2085309C00FBE813 = {
 			isa = PBXGroup;
 			children = (
+				6FCC9D8B2085539F00FBE813 /* README.md */,
 				6FCC9D492085309C00FBE813 /* Storm Viewer */,
 				6FCC9D482085309C00FBE813 /* Products */,
 			);
@@ -173,6 +176,7 @@
 				6FCC9D842085327400FBE813 /* nssl0041.jpg in Resources */,
 				6FCC9D852085327400FBE813 /* nssl0042.jpg in Resources */,
 				6FCC9D552085309D00FBE813 /* LaunchScreen.storyboard in Resources */,
+				6FCC9D8C2085539F00FBE813 /* README.md in Resources */,
 				6FCC9D522085309D00FBE813 /* Assets.xcassets in Resources */,
 				6FCC9D822085327400FBE813 /* nssl0045.jpg in Resources */,
 				6FCC9D502085309C00FBE813 /* Main.storyboard in Resources */,
